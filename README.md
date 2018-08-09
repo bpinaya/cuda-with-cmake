@@ -3,13 +3,12 @@
 
 Simple CUDA building with `cmake`.
 
-Make sure you have version `>3.8`. It can be downloaded from [here](https://cmake.org/download/).
+Make sure you have CMake version `>3.8`. It can be downloaded from [here](https://cmake.org/download/).
 
 To build simply run:
 
 ```sh
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
 make
 ```
